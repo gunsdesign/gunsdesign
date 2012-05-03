@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Slide</title>
+<link href="estilo.css" rel="stylesheet" type="text/css">
+<style>
+#carosel img {width:912px; height:262px; padding:0px; margin:0 5px;}
+#carosel img {width:autopx; height:autopx;display:block; -webkit-box-shadow:0px 0px 400px #000000; -moz-box-shadow: 0px 0px 400px #000000;box-shadow: 0px opx 400px #000000;}
+</style>
+</head>
+<div id="carosel" class="carosel">
+<ul>
+<li><img src="1.png" draggable="false"/></li>
+<li><img src="2.png" draggable="false"/></li>
+</ul>
+</div>
+<body>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jcarousel.js"></script>
+<script type="text/javascript"> $(function(){ $(".carosel").jCarouselLite({ visible: 1, auto: 8000, speed: 350, }) }) </script>
+</body>
+</html>

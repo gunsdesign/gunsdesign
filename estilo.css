@@ -1,0 +1,44 @@
+﻿/*Version: 1.3
+Author: Murilo Green (Fundão Santos Neto)
+Author URL: www.GunsDesign.com*/
+#wrap {width:10% 0;height:100%;overflow:auto;background:url(bg94.png) repeat fixed center;}
+* {margin:0 auto;border:0;}
+body {background:url(ref/background.png);color:#fff;font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;font-size:14px;}
+html {border-top:5px solid #5C9FC0;}
+a {text-decoration:none;color:#6C6C6C;-webkit-transition:color .2s linear;transition:color .2s linear;}
+a:hover {text-decoration:none;color:#000;}
+#logo {background:url(ref/grid.png);height:202px;margin-left:10px;margin-right:10px;}
+.span {margin:0 20px 0 0;font-size:11px;}
+#top {position:fixed;bottom:0px;right:15px;text-decoration:none;}
+#linha {position:fixed;top:0px;right:0px;text-decoration:none;border-top:5px solid #1DAAD7;width:100%;}
+#esq {width:204px;height:34px;position:absolute;top:0;left:0px;text-decoration:none;background:url(ref/esq.png) no-repeat;}
+#sobre-titulo {background:url(ref/sobre.png) no-repeat;}
+#sobre-conteudo {background:url(ref/sobre.png) no-repeat;}
+h1 {font-weight:normal;font-size:22px;line-height: 36px;}
+[class^="icon-"] {display:inline-block;width:14px;height:14px;vertical-align:text-top;background-image:url(ref/icones-branco.png);background-position:14px 14px;background-repeat:no-repeat;*margin-right:.3em;margin-top:2px;}
+[class^="icon-"]:last-child {*margin-left:0;margin-top:-1px;}
+.icon-white {background-image: url(ref/icones-branco.png);}
+.icon-home {background-position:0 -24px;}
+.icon-file {background-position:-24px -24px;}
+.icon-user {background-position:-168px 0;}
+.icon-th-large {background-position:-216px 0;}
+.icon-shopping-cart {background-position:-360px -120px;}
+#rodape{background:url(ref/rodape.png) repeat;height:156px;bottom:0px;color:#DDD;}
+.socials{float:right;margin:5px;margin-top:35px;}
+.socials a{float:left;display:block;width:40px;height:37px;margin-left:10px;background:url(ref/socials.png) 0 0 no-repeat;}
+.socials a.dribbble{background-position:-46px 0;}
+.socials a.rss{background-position:-92px 0;}
+.socials a.twitter:hover{background-position:0 -47px;}
+.socials a.dribbble:hover{background-position:-46px -47px;}
+#dica {background:url(ref/dica.png) no-repeat center;height:77px;display:block;font-family:Arial, Helvetica, sans-serif;font-size:30px;color:#CCC;}
+#footer a {font-size:16px;font-weight:bold;color:#2583ad;text-decoration:none;padding-left:4px;padding-right:4px;margin:4px;float:left;margin:5px;margin-top:40px;}
+#footer a:hover {-moz-text-shadow:0 0 8px #90c5dc;-o-text-shadow:0 0 8px #90c5dc;-webkit-text-shadow:0 0 8px #90c5dc;-khtml-text-shadow:0 0 8px #90c5dc;text-shadow:0 0 8px #DDD;-moz-transitin:all 2s ease-in-out;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;-khtml-transition:all .2s ease-in-out;transition:all 2s ease-in-out;background:#FFF; padding-bottom:10px;}
+.text-shadow {text-shadow:2px 1px 0px #000;}
+#nav {width:800px;float:right;display:block;text-align:left;margin:0px 30px 0px 0px;padding:0px 0px 0px 0px;line-height:30px;}
+#nav ul {margin:0;padding:0;}
+#nav li {float:right;margin:0px;padding:0px;list-style-type:none;margin:0px 0px 0px 0px;}
+#nav li a {display:block;padding:10px 0px 0px 0px;margin:0px 0px 0px 0px;font-size:12px;color:#fff;text-decoration:none;text-transform:uppercase;line-height:10px;height:30px;width:148px;text-align:center;}
+#nav .selected a,#nav .current_page_item a,#nav a {padding:10px 0px 0px 0px;font-size:12px;color:#ffffff;text-decoration:none;display:block;background: url(ref/bg-nav-hover.png) no-repeat;}
+#nav .selected a,#nav .current_page_item a,#nav a:hover {padding:10px 0px 0px 0px;font-size:12px;color:#ffffff;text-decoration:none;display:block;background: url(ref/bg-nav.png) no-repeat;}
+#nav a:visited {padding:0px 0px 0px 0px;text-decoration:none;display:block;}
+.ativo {padding:10px 0px 0px 0px;font-size:12px;color:#ffffff;text-decoration:none;display:block;background: url(ref/bg-nav.png) no-repeat;}
